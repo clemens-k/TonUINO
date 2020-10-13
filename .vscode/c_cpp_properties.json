@@ -1,0 +1,29 @@
+{
+    "env": {
+        "ArduinoLibPath": "/home/acer/Arduino/libraries",
+        "ArduinoInstallPath": "/home/acer/Downloads/arduino-1.8.13"
+    },
+    "configurations": [
+        {
+            "name": "Arduino-Linux",
+            "includePath": [
+                "${ArduinoInstallPath}/tools/**",
+                "${ArduinoInstallPath}/hardware/arduino/avr/**",
+                "${ArduinoLibPath}/JC_Button/src/**",
+                "${ArduinoLibPath}/MFRC522/src/**",
+                "${ArduinoLibPath}/DFPlayer_Mini_Mp3_by_Makuna/src/**",
+                "/home/acer/Downloads/arduino-1.8.13/hardware/arduino/avr/**",
+                "/home/acer/Downloads/arduino-1.8.13/tools/**"
+            ],
+            "forcedInclude": [
+                "${ArduinoInstallPath}/hardware/arduino/avr/cores/arduino/Arduino.h",
+                "/home/acer/Downloads/arduino-1.8.13/hardware/arduino/avr/cores/arduino/Arduino.h"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
